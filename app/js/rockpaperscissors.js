@@ -27,8 +27,15 @@ function getPlayerMove(move) {
     // However, if `move` is not specified / is null, your expression should equal `getInput()`.
     return /* Your Expression */;
 	
-move = move || getInput()
+// start my work
 
+if (move >= 1 || move <= 1) {
+    console.log(move);
+} else {
+    console.log(getInput());
+}
+
+// end my work
 
 }
 
@@ -38,7 +45,15 @@ function getComputerMove(move) {
     // However, if `move` is not specified / is null, your expression should equal `randomPlay()`.
     return /* Your Expression */;
 
-move = move || randomPlay()
+// start my work
+
+if (move >= 1 || move <= 1) {
+    console.log(move);
+} else {
+    console.log(randomPlay());
+}
+
+// end my work
 
 }
 
